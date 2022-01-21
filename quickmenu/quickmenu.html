@@ -3,58 +3,52 @@
 <head>
   <title>quickmenu</title>
     <style>
-    @keyframes bounce 
-    {
-        0%, 100%, 20%, 50%, 80% {
-        -webkit-transform: translateY(0);
-        -ms-transform:     translateY(0);
-        transform:         translateY(0)
-      }
-      40% 
-      {
-        -webkit-transform: translateY(-30px);
-        -ms-transform:     translateY(-30px);
-        transform:         translateY(-30px)
-      }
-      60% 
-      {
-        -webkit-transform: translateY(-15px);
-        -ms-transform:     translateY(-15px);
-        transform:         translateY(-15px)
-      }
-    }
-    .column 
-    {
-      float: left;
-      width: 16%;
-    }
-    /* Clear floats after image containers */
-    .row::after 
-    {
-      content: "";
-      clear: both;
-      display: table;
-      -webkit-animation-duration: 1s;
-      animation-duration: 1s;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-      -webkit-animation-timing-function: ease-in-out;
-      animation-timing-function: ease-in-out;
-    }
-    .column:hover 
-    {
-      cursor: pointer;
-      animation-name: bounce;
-      -moz-animation-name: bounce;
-    }
-
-    /* Clear floats after image containers */
-    .row::after 
-    {
-      content: "";
-      clear: both;
-      display: table;
-    }   
+        @keyframes bounce 
+        {
+            0%, 100%, 20%, 50%, 80% {
+                -webkit-transform: translateY(0);
+                -ms-transform:     translateY(0);
+                transform:         translateY(0)
+            }
+            40% {
+                -webkit-transform: translateY(-30px);
+                -ms-transform:     translateY(-30px);
+                transform:         translateY(-30px)
+            }
+            60% {
+                -webkit-transform: translateY(-15px);
+                -ms-transform:     translateY(-15px);
+                transform:         translateY(-15px)
+                }
+        }
+        .column 
+        {
+            float: left;
+            width: 25%;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+        }
+        .row
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        /* Clear floats after image containers */
+        .row::after 
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .column:hover {
+        cursor: pointer;
+        animation-name: bounce;
+        -moz-animation-name: bounce;
+        }
   </style>
 </head>
 
@@ -65,22 +59,22 @@
         
     </div>
     <div class="column">
-      <a href="https://mj-michael-james-demo.docebosaas.com/pages/137/onboarding-calmcounter">
+      <a target="_parent" href="https://mj-michael-james-demo.docebosaas.com/pages/137/onboarding-calmcounter">
         <img src="one.png" alt="one" style="width:100%">
       </a>
     </div>
     <div class="column">
-      <a href="https://mj-michael-james-demo.docebosaas.com/pages/141/my-learning-library">  
+      <a target="_parent" href="https://mj-michael-james-demo.docebosaas.com/pages/141/my-learning-library">  
         <img src="two.png" alt="two" style="width:100%">
       </a>
     </div>
     <div class="column">
-      <a href="https://mj-michael-james-demo.docebosaas.com/pages/142/social-learning-hub">  
+      <a target="_parent" href="https://mj-michael-james-demo.docebosaas.com/pages/142/social-learning-hub">  
         <img src="three.png" alt="three" style="width:100%"> 
       </a>
     </div>
     <div class="column">
-      <a href="https://mj-michael-james-demo.docebosaas.com/pages/143/certification-central">
+      <a target="_parent" href="https://mj-michael-james-demo.docebosaas.com/pages/143/certification-central">
         <img src="four.png" alt="four" style="width:100%">
       </a>
     </div>
