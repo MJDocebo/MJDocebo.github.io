@@ -1,1 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>quickmenu</title>
+  <style>
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    }
 
+    /* Clear floats after image containers */
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="column">
+      <img src="one.png" alt="one" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="two.png" alt="two" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="three.png.jpg" alt="three" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="four.png.jpg" alt="four" style="width:100%">
+    </div>
+  </div>
+
+</body>
+</html>
